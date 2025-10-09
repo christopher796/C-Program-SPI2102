@@ -19,6 +19,10 @@ int main() {
 		scanf("%d", &amount);
 		balance -= amount;//step, balance = balance-amount
 		
+		if (balance > 0) {
+			printf("Remaining balance: %.2d\n", balance);
+		}
+		
 	}
 	printf("Insufficient balance");//display after withdrawing all balance
 	
